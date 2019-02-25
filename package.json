@@ -1,0 +1,16 @@
+{
+  "name": "enmax-bill-reader",
+  "version": "1.0.0",
+  "description": "Read your enmax bills to find out how much you pay for fees.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "convert": "./convert.sh ./pdf/ ./pdf/convert/",
+    "full": "npm run convert && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Barkemeyer",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
